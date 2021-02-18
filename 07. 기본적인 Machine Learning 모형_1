@@ -1,0 +1,11 @@
+07. 기본적인 Machine Learning 모형_1
+· Naive bayes classifier(Nbayes)
+- Naive bayes는 설명변수 간의 독립을 가정
+- 조건부확률과 베이즈정리를 이용하여 패턴이 많이 나타나려면 설명변수와 반응변수를 분리하여 생각한다
+- 종류 : Gaussian(설명변수 - 연속형), Multinomial(설명변수 - 범주형), Bernoulli(설명변수 - 이분형)
+
+· K-Nearest Neighbors Algorithm(KNN)
+- K는 어떻게? : 너무크면 미세한 경계부분을 잘못 분류, 너무 작으면 과적합 우려
+		Test error를 작게하는 k, 차원 축소 후 KNN 진행
+- 과적합 문제 : error를 과소추정하지 않으면서 데이터의 소실을 최소화 하려면 데이터를 나누어 번갈아가며 Training과 Test Set 역할을 한다.
+- 종속변수 : 범주형은 가장 많이 나타나는 범주로 y추정, 연속형은 대푯값으로 y추정
